@@ -1,38 +1,89 @@
-.App {
+:root {
+  --light-color: white;
+  --medium-color: #6D9775;
+  --dark-color: #104730;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+/* Header */
+header {
+  color: white;
+  background: var(--dark-color);
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+/* Main */
+.main-container {
+  padding-top: 10px;
+}
+
+/* About me */
+.about-me-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Experience list */
+.accordion-content {
+  background-color: #f1eeee;
+}
+
+/* Projects */
+.project-container {
+  margin-left: 10%;
+}
+
+.project-card {
+  background: whitesmoke;
+  padding: 80px;
+  border: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  min-width: 40%;
+}
+
+.project-card h3 {
+  background-image: linear-gradient(to right, var(--dark-color), var(--medium-color));
+  color: white;
+  padding: 20px;
+}
+
+/* Actions on project cards */
+/* .project-card:hover {
+  border-left: 10px solid;
+  border-color: var(--medium-color);
+}
+
+.project-card:active {
+  border-left: 10px solid;
+  border-color: var(--dark-color);
+}
+
+.project-card:focus {
+  border-left: 10px solid;
+  border-color: white;
+} */
+
+/* Footer */
+footer {
+  color: white;
+  background: var(--dark-color);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
