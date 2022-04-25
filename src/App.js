@@ -2,8 +2,9 @@ import './App.css';
 import NavBar from'./components/NavBar'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
-import ExperienceList from './components/ExperienceList'
-import Resume from './components/Resume'
+import ExperienceList from './components/Experience'
+import Contact from './components/Contact'
+// import Resume from './components/Resume'
 import Footer from'./components/Footer'
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Profile />
         <Projects />
         <ExperienceList />
-        <Resume />
+        {/* <Resume /> */}
+        <Contact />
       </div>
       <Footer />
     </div>
