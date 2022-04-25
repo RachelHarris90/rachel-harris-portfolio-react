@@ -4,7 +4,7 @@ export default function Profile() {
 
   return (
     <div>
-      <h1>Rachel Harris's portfolio</h1>
+      <h1>About me</h1>
       <p className="about-me-content">
         Ive been working with software since 2010. Ive worked as Business Analyst, Product Manager, Development Lead and currently work as a Delivery Lead for an Australian tech company.
 

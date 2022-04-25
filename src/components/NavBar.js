@@ -9,13 +9,13 @@ export default function NavBar() {
         <a className="navbar-item" href="#">Home</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Contact</a>
+        <a className="navbar-item" href="#">Contact</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Experience</a>
+        <a className="navbar-item" href="#">Experience</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Resume</a>
+        <a className="navbar-item" href="#">Resume</a>
       </div>
     </nav>
   );

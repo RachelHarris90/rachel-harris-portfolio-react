@@ -6,18 +6,15 @@
   
 h1 {
     text-align: left;
-    margin-left: 10%;
 }
 
 .accordion {
-    max-width: 80%;
+    max-width: 100%;
     margin: 2rem auto;
 }
 
 .accordion-item {
     border-radius: 50;
-    border: 20px;
-    border-color: black;
 }
 
 .accordion-title {
@@ -26,18 +23,19 @@ h1 {
     justify-content: space-between;
     cursor: pointer;
     font-size: 1.5em;
-
 }
 
 .accordion-title:hover {
     background-color: #dddddd;
 }
 
+.accordion-title:active {
+    background-color: #dddddd;
+}
+
 .accordion-title,
 .accordion-content {
     padding: 1rem;
-    border: 2px;
-    border-color: black;
 }
 
 @media screen and (max-width: 700px) {

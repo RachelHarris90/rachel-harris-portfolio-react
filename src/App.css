@@ -4,10 +4,12 @@
   --dark-color: #104730;
 }
 
+body {
+  background-color: #eceaea;
+}
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: 'Poppins';
 }
 
@@ -17,23 +19,33 @@ header {
   background: var(--dark-color);
   width: 100%;
   padding: 20px;
+  justify-content: space-between;
+  display: flex;
 }
 
 nav {
   justify-content: space-between;
+  display: flex;
+}
+
+.navbar-item {
+  color: #ffffff;
+  
+}
+
+a {
   text-decoration: none;
 }
 
 /* Main */
 .main-container {
   padding-top: 10px;
-}
-
-/* About me */
-.about-me-content {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+/* About me */
+
 
 /* Experience list */
 .accordion-content {
@@ -41,40 +53,29 @@ nav {
 }
 
 /* Projects */
-.project-container {
-  margin-left: 10%;
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .project-card {
   background: whitesmoke;
-  padding: 80px;
+  padding: 10px;
   border: 10px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #aaaaaa;
-  min-width: 40%;
 }
 
 .project-card h3 {
-  background-image: linear-gradient(to right, var(--dark-color), var(--medium-color));
-  color: white;
+  font-size: 30px;
   padding: 20px;
 }
 
-/* Actions on project cards */
-/* .project-card:hover {
-  border-left: 10px solid;
-  border-color: var(--medium-color);
+.project-examples {
+  max-height: 200px;
 }
-
-.project-card:active {
-  border-left: 10px solid;
-  border-color: var(--dark-color);
-}
-
-.project-card:focus {
-  border-left: 10px solid;
-  border-color: white;
-} */
 
 /* Footer */
 footer {

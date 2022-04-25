@@ -33,8 +33,10 @@ const ExperienceList = () => {
     },
   ];
 
+const containerStyle = { 'background-color': '#ffffff' };
+
   return (
-    <div>
+    <div className="experience-list" style={containerStyle}>
       <h1>Experience</h1>
       <div className="accordion">
         {accordionData.map(({ title, content }) => (
