@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
         <p>
-            This is Rachel's portfolio.
+            Rachel Harris, 2022.
         </p>
     </footer>
   );
