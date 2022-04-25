@@ -15,14 +15,32 @@ h1 {
 
 .accordion-item {
     border-radius: 50;
+    box-shadow: 2px 2px 2px #aaaaaa;
+}
+
+.accordion-title-row {
+    width: 75%;
 }
 
 .accordion-title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     cursor: pointer;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+.accordion-company {
+    width: 20%;
+    text-align: right;
+}
+
+.accordion-control {
+    width: 5%;
+    text-align: center;
+}
+
+.accordion-content {
+    border-top: 0.3px solid #aaaaaa;
 }
 
 .accordion-title:hover {
