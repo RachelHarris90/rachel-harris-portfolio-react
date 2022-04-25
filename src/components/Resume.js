@@ -1,8 +1,29 @@
 import React, { useState } from 'react';
-import PDFVewer from 'pdf-viewer-reactjs'
+import { Document, Page } from 'react-pdf';
 
-function Resume() {
-    
+import resumePDF from '/../rachel-harris-resume.pdf'
+
+export default function Resume() {
+  const [numPages, setNumPages] = useState(null);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+  return (
+    <Document
+      file={resumePDF}
+      onLoadSuccess={onDocumentLoadSuccess}
+    >
+      {Array.from(
+        new Array(numPages),
+        (el, index) => (
+          <Page
+            key={`page_${index + 1}`}
+            pageNumber={index + 1}
+          />
+        ),
+      )}
+    </Document>
+  );
 }
-
-export default Resume;
