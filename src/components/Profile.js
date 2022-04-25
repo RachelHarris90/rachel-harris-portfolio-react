@@ -2,18 +2,28 @@ import React from 'react';
 
 export default function Profile() {
 
+  const profileStyle = { 'background-color': '#ffffff', border: '2px', 'border-radius': '5px', padding: '15px', 'box-shadow': '2px 2px 2px #aaaaaa', 'font-size': '20px'};
+
   return (
-    <div>
+    <div className="profile-container">
+      <a name="profile"></a>
       <h1>About me</h1>
-      <p className="about-me-content">
-        Ive been working with software since 2010. Ive worked as Business Analyst, Product Manager, Development Lead and currently work as a Delivery Lead for an Australian tech company.
-
-        I love how scalable software is and how we can use it to solve problems and create opportunities for people and organisations.
-
-        Now Im learning how to code in a 24 week long coding bootcamp, to enable myself to become more self-sufficient and to open up more opportunities for my future. 
-
-        Have a look around and reach out if anything here interests you.
-      </p>
+      <div className="profile-contents">
+        <img className="profile-image" src="src/assets/rachel-harris-portrait.jpeg"></img>
+        <p className="profile-content" style={profileStyle}>
+          I've been working with software since 2010. I've worked as Business Analyst, Product Manager, Development Lead and currently work as a Delivery Lead for an Australian tech company.
+          <br></br>
+          <br></br>
+          I love how scalable software is and how we can use it to solve problems and create opportunities for people and organisations.
+          <br></br>
+          <br></br>
+          Now I'm learning how to code in a 24 week long coding bootcamp, to enable myself to become more self-sufficient and to open up more opportunities for my future. 
+          <br></br>
+          <br></br>
+          Have a look around and reach out if anything here interests you.
+        </p>
+      </div>
+      
     </div>
     );
   }
