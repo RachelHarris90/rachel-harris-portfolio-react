@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfileImage from '../assets/rachel-harris-portrait.jpeg'
 
 export default function Profile() {
 
@@ -9,7 +10,7 @@ export default function Profile() {
       <a name="profile"></a>
       <h1>About me</h1>
       <div className="profile-contents">
-        <img className="profile-image" src="src/assets/rachel-harris-portrait.jpeg"></img>
+        <img className="profile-image" src={ProfileImage}></img>
         <p className="profile-content" style={profileStyle}>
           I've been working with software since 2010. I've worked as Business Analyst, Product Manager, Development Lead and currently work as a Delivery Lead for an Australian tech company.
           <br></br>

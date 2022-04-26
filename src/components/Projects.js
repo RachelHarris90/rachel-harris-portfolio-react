@@ -1,47 +1,56 @@
 import React from 'react';
-import ProjectCard from './ProjectCard'
+import Project from './Project';
+import ArtJacent from '../assets/project-examples/artjacent.png';
+import CodingQuiz from '../assets/project-examples/coding-quiz.png';
+import EmployeeManagement from '../assets/project-examples/command-line-example.png';
+import CoopedUpCooking from '../assets/project-examples/cooped-up-cooking.png';
+import TeamProfileGenerator
+from '../assets/project-examples/cooped-up-cooking.png';
+import WeatherDashboard from '../assets/project-examples/weather-dashboard.png';
+import WorkDaySchedule from '../assets/project-examples/work-day-schedular.png';
+
 
 const Projects = () => {
   const projectData = [
     {
       projectName: 'artJacent',
-      imageSrc: './assets/project-examples/artjacent.png',
+      imageSrc: ArtJacent,
       siteLink: 'https://artjacent.herokuapp.com/',
       repoLink: 'https://github.com/jordanlrothwell/artJacent'
     },
     {
       projectName: 'Cooped up cooking',
-      imageSrc: 'https://github.com/oliverlkelly/cooped-up-cooking/raw/main/assets/images/recipe-finder.png',
+      imageSrc: CoopedUpCooking,
       siteLink: 'https://oliverlkelly.github.io/cooped-up-cooking/',
       repoLink: 'https://github.com/oliverlkelly/cooped-up-cooking'
     },
     {
       projectName: 'Team profile generator',
-      imageSrc: 'https://github.com/RachelHarris90/team-profile-generator/raw/master/assets/command-line-example.png',
+      imageSrc: TeamProfileGenerator,
       siteLink: 'https://github.com/RachelHarris90/team-profile-generator',
       repoLink: 'https://github.com/RachelHarris90/team-profile-generator'
     },
     {
       projectName: 'Australian geography quiz',
-      imageSrc: 'assets/project-examples/coding-quiz.png',
+      imageSrc: CodingQuiz,
       siteLink: 'https://rachelharris90.github.io/coding-quiz/',
       repoLink: 'https://github.com/RachelHarris90/coding-quiz'
     },
     {
       projectName: 'Employee tracker',
-      imageSrc: './assets/images/initial-prompts.png',
+      imageSrc: EmployeeManagement,
       siteLink: 'https://github.com/RachelHarris90/employee-tracker',
       repoLink: 'https://github.com/RachelHarris90/employee-tracker'
     },
     {
       projectName: 'Day scheduler',
-      imageSrc: './assets/images/work-day-scheduler.png',
+      imageSrc: WorkDaySchedule,
       siteLink: 'https://rachelharris90.github.io/calendar-app/',
       repoLink: 'https://github.com/RachelHarris90/calendar-app'
     },
     {
       projectName: 'Weather dashboard',
-      imageSrc: './assets/images/weather-dashboard.png',
+      imageSrc: WeatherDashboard,
       siteLink: 'https://rachelharris90.github.io/weather-dashboard/',
       repoLink: 'https://github.com/RachelHarris90/weather-dashboard'
     },
@@ -53,7 +62,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects" >
         {projectData.map(({ projectName, imageSrc, siteLink, repoLink }) => (
-          <ProjectCard projectName={projectName} imageSrc={imageSrc} siteLink={siteLink} repoLink={repoLink} />
+          <Project projectName={projectName} imageSrc={imageSrc} siteLink={siteLink} repoLink={repoLink} />
         ))}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 
-import resumePDF from '/../rachel-harris-resume.pdf'
+import resumePDF from './../assets/rachel-harris-resume.pdf';
 
 export default function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -11,7 +11,9 @@ export default function Resume() {
   }
 
   return (
-    <Document
+    <div>
+      <h1>Resume</h1>
+      <Document
       file={resumePDF}
       onLoadSuccess={onDocumentLoadSuccess}
     >
@@ -25,5 +27,6 @@ export default function Resume() {
         ),
       )}
     </Document>
+    </div>
   );
 }

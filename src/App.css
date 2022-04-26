@@ -1,7 +1,7 @@
 :root {
   --light-color: white;
-  --medium-color: #6D9775;
-  --dark-color: #104730;
+  --medium-color: #600765;
+  --dark-color: #270029;
 }
 
 body {
@@ -60,11 +60,13 @@ a {
 }
 
 .profile-image {
-  width: 25%
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .profile-content {
-  width: 70%
+  width: 70%;
 }
 
 /* Experience list */
@@ -91,6 +93,7 @@ a {
   border-radius: 5px;
   box-shadow: 2px 2px 2px #aaaaaa;
   width:49%;
+  height: 400px;
 }
 
 .project-card h3 {
