@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import Project from '../components/Project';
 import ArtJacent from '../assets/project-examples/artjacent.png';
 import CodingQuiz from '../assets/project-examples/coding-quiz.png';
 import EmployeeManagement from '../assets/project-examples/command-line-example.png';
@@ -59,6 +59,7 @@ const Projects = () => {
   return (
     <div className="project-container">
       <a name="projects"></a>
+      
       <h1>Projects</h1>
       <div className="projects" >
         {projectData.map(({ projectName, imageSrc, siteLink, repoLink }) => (

@@ -56,11 +56,13 @@ a {
 
 .profile-contents {
   display: flex;
+  flex-direction: row;
   gap: 5px;
 }
 
 .profile-image {
   width: 25%;
+  height: 25%; 
   border-radius: 50%;
   margin-right: 20px;
 }
@@ -70,7 +72,7 @@ a {
 }
 
 /* Experience list */
-/* Go to ExperienceList.css */
+/* Go to Experience.css */
 
 
 /* Projects */
@@ -141,3 +143,13 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .profile-contents {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    width: 70%;
+    height: 70%;
+  }
+}

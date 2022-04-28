@@ -1,42 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function NavBar() {
+function NavBar() {
   const linkStyle = { border: '1px black', padding: '5px', 'vertical-align': 'middle' };
 
   return (
     <nav className="main-header-menu">
-      <div style={linkStyle}>
-        <a className="navbar-item" href="#profile">Home</a>
-      </div>
-      <div style={linkStyle}>
-        <a className="navbar-item" href="#projects">Projects</a>
-      </div>
-      <div style={linkStyle}>
-        <a className="navbar-item" href="#experience">Experience</a>
-      </div>
-      {/* <div style={linkStyle}>
-        <a className="navbar-item"href="#resume">Resume</a>
-      </div> */}
-      <div style={linkStyle}>
-        <a className="navbar-item"href="#contact">Contact</a>
-      </div>
+      <Link  className="navbar-item" to="/">
+        <h3 style={linkStyle}>Profile</h3>
+      </Link>
+      <Link style={linkStyle} className="navbar-item" to="/projects">
+        <h3>Projects</h3>
+      </Link>
+      <Link style={linkStyle} className="navbar-item" to="/experience">
+        <h3>Experience</h3>
+      </Link>
+      <Link style={linkStyle} className="navbar-item" to="/contact">
+        <h3>Contact</h3>
+      </Link>
+      <Link style={linkStyle} className="navbar-item" to="/resume">
+        <h3>Resume</h3>
+      </Link>
     </nav>
   );
 }
 
-
-// return (
-//   <nav className="main-header-menu">
-//     <NavLink className="navbar-item" style={linkStyle}to="/profile">
-//       Profile
-//     </NavLink>
-//     <NavLink className="navbar-item" style={linkStyle}to="/experience">
-//       Experience
-//     </NavLink>
-//     <NavLink className="navbar-item" style={linkStyle}to="/contact">
-//       Contact
-//     </NavLink>
-//     <NavLink className="navbar-item" style={linkStyle}to="/resume">
-//       Resume
-//     </NavLink>
-//   </nav>
+export default NavBar;

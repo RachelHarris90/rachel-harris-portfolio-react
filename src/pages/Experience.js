@@ -1,7 +1,8 @@
 import React from 'react';
-import Accordion from './Accordion';
+import './Experience.css';
+import Accordion from '../components/Accordion';
 
-const ExperienceList = () => {
+const Experience = () => {
   const accordionData = [
     {
       title: 'Senior Delivery lead',
@@ -74,4 +75,4 @@ const accordionStyle = { 'background-color': '#ffffff', 'border-radius': '5px' }
   );
 };
 
-export default ExperienceList;
+export default Experience;

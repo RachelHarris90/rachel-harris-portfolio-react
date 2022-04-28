@@ -1,9 +1,9 @@
 import React from 'react';
+import PerthMap from '../assets/perth-map.png';
 
 export default function Contact() {
 
-  const contactStyle = { 'background-color': '#ffffff', border: '2px', 'border-radius': '5px', padding: '15px', 'box-shadow': '2px 2px 2px #aaaaaa', 'font-size': '20px', 'width': '50%' ,margin: '10px' };
-
+  const contactStyle = { 'background-color': '#ffffff', border: '2px', 'border-radius': '5px', padding: '15px', 'box-shadow': '2px 2px 2px #aaaaaa', 'font-size': '20px', 'width': '100%' ,margin: '10px' };
 
   return (
     <div className="contact-container">
@@ -28,11 +28,7 @@ export default function Contact() {
                 <a href="./src/assets/rachel-harris-resume.pdf">Resume</a>
             </div>
         </div>
-        <div style={contactStyle}>
-            <div>Perth</div>
-        </div>
       </div>
-      
     </div>
     );
   }
