@@ -1,5 +1,4 @@
 import React from 'react';
-import PerthMap from '../assets/perth-map.png';
 
 export default function Contact() {
 

@@ -4,10 +4,10 @@ import ArtJacent from '../assets/project-examples/artjacent.png';
 import CodingQuiz from '../assets/project-examples/coding-quiz.png';
 import EmployeeManagement from '../assets/project-examples/command-line-example.png';
 import CoopedUpCooking from '../assets/project-examples/cooped-up-cooking.png';
-import TeamProfileGenerator
-from '../assets/project-examples/cooped-up-cooking.png';
 import WeatherDashboard from '../assets/project-examples/weather-dashboard.png';
 import WorkDaySchedule from '../assets/project-examples/work-day-schedular.png';
+import TeamProfileGenerator
+from '../assets/project-examples/team-profile-generator.png';
 
 
 const Projects = () => {
@@ -23,12 +23,6 @@ const Projects = () => {
       imageSrc: CoopedUpCooking,
       siteLink: 'https://oliverlkelly.github.io/cooped-up-cooking/',
       repoLink: 'https://github.com/oliverlkelly/cooped-up-cooking'
-    },
-    {
-      projectName: 'Team profile generator',
-      imageSrc: TeamProfileGenerator,
-      siteLink: 'https://github.com/RachelHarris90/team-profile-generator',
-      repoLink: 'https://github.com/RachelHarris90/team-profile-generator'
     },
     {
       projectName: 'Australian geography quiz',
@@ -53,6 +47,12 @@ const Projects = () => {
       imageSrc: WeatherDashboard,
       siteLink: 'https://rachelharris90.github.io/weather-dashboard/',
       repoLink: 'https://github.com/RachelHarris90/weather-dashboard'
+    },
+    {
+      projectName: 'Team profile generator',
+      imageSrc: TeamProfileGenerator,
+      siteLink: 'https://github.com/RachelHarris90/team-profile-generator',
+      repoLink: 'https://github.com/RachelHarris90/team-profile-generator'
     },
   ];
 

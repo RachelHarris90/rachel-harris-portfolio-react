@@ -30,6 +30,7 @@ header {
 nav {
   justify-content: space-between;
   display: flex;
+  align-items: center;
 }
 
 .navbar-item {
@@ -57,18 +58,20 @@ a {
 .profile-contents {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 20px;
 }
 
 .profile-image {
-  width: 25%;
-  height: 25%; 
+  width: 35%;
+  height: 35%; 
   border-radius: 50%;
   margin-right: 20px;
+  margin: auto;
 }
 
 .profile-content {
   width: 70%;
+  margin: auto;
 }
 
 /* Experience list */
@@ -127,9 +130,14 @@ a {
 }
 
 /* Contact */
-
 .contact-contents {
   display: flex;
+}
+
+/* Resume */
+button {
+  margin-bottom: 20px;
+  padding: 5px;
 }
 
 /* Footer */
@@ -144,6 +152,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+  
   .profile-contents {
     flex-direction: column;
   }

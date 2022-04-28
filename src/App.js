@@ -38,6 +38,10 @@ export default function App() {
                 path="/contact" 
                 element={<Contact />} 
               />
+              <Route 
+                path="/resume" 
+                element={<Resume />} 
+              />
             </Routes>
         </div>
 
