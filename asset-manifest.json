@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58a7db3b.css",
+    "main.js": "/static/js/main.7dff0c44.js",
+    "static/media/coding-quiz.png": "/static/media/coding-quiz.c472d47d096aedd993a4.png",
+    "static/media/rachel-harris-portrait.jpeg": "/static/media/rachel-harris-portrait.6d4694e4ff19ec67b7e4.jpeg",
+    "static/media/artjacent.png": "/static/media/artjacent.e2b614b417e974eb80f4.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.78f2110478cad5afdffa.png",
+    "static/media/cooped-up-cooking.png": "/static/media/cooped-up-cooking.f83ee59e9a32f46aed1f.png",
+    "static/media/work-day-schedular.png": "/static/media/work-day-schedular.aa95d7f0e75c9c34a469.png",
+    "static/media/command-line-example.png": "/static/media/command-line-example.eccfbc64af8384de9807.png",
+    "static/media/rachel-harris-resume.pdf": "/static/media/rachel-harris-resume.c3f185014e873a398066.pdf",
+    "static/media/team-profile-generator.png": "/static/media/team-profile-generator.2d14fb390fd2a7e626c3.png",
+    "index.html": "/index.html",
+    "main.58a7db3b.css.map": "/static/css/main.58a7db3b.css.map",
+    "main.7dff0c44.js.map": "/static/js/main.7dff0c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a7db3b.css",
+    "static/js/main.7dff0c44.js"
+  ]
+}
