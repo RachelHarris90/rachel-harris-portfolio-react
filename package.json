@@ -2,7 +2,7 @@
   "name": "rachel-harris-portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RachelHarris90.github.io",
+  "homepage": "https://rachelharris90.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
