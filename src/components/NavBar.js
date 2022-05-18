@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
-  const linkStyle = { border: '1px black', padding: '5px', 'vertical-align': 'middle' };
+  const linkStyle = { border: '1px black', padding: '5px', 'verticalAlign': 'middle' };
 
   return (
     <nav className="main-header-menu">

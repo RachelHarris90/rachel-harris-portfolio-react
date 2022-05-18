@@ -13,42 +13,49 @@ from '../assets/project-examples/team-profile-generator.png';
 const Projects = () => {
   const projectData = [
     {
+      id: '01',
       projectName: 'artJacent',
       imageSrc: ArtJacent,
       siteLink: 'https://artjacent.herokuapp.com/',
       repoLink: 'https://github.com/jordanlrothwell/artJacent'
     },
     {
+      id: '02',
       projectName: 'Cooped up cooking',
       imageSrc: CoopedUpCooking,
       siteLink: 'https://oliverlkelly.github.io/cooped-up-cooking/',
       repoLink: 'https://github.com/oliverlkelly/cooped-up-cooking'
     },
     {
+      id: '03',
       projectName: 'Australian geography quiz',
       imageSrc: CodingQuiz,
       siteLink: 'https://rachelharris90.github.io/coding-quiz/',
       repoLink: 'https://github.com/RachelHarris90/coding-quiz'
     },
     {
+      id: '04',
       projectName: 'Employee tracker',
       imageSrc: EmployeeManagement,
       siteLink: 'https://github.com/RachelHarris90/employee-tracker',
       repoLink: 'https://github.com/RachelHarris90/employee-tracker'
     },
     {
+      id: '05',
       projectName: 'Day scheduler',
       imageSrc: WorkDaySchedule,
       siteLink: 'https://rachelharris90.github.io/calendar-app/',
       repoLink: 'https://github.com/RachelHarris90/calendar-app'
     },
     {
+      id: '06',
       projectName: 'Weather dashboard',
       imageSrc: WeatherDashboard,
       siteLink: 'https://rachelharris90.github.io/weather-dashboard/',
       repoLink: 'https://github.com/RachelHarris90/weather-dashboard'
     },
     {
+      id: '07',
       projectName: 'Team profile generator',
       imageSrc: TeamProfileGenerator,
       siteLink: 'https://github.com/RachelHarris90/team-profile-generator',
@@ -62,8 +69,8 @@ const Projects = () => {
       
       <h1>Projects</h1>
       <div className="projects" >
-        {projectData.map(({ projectName, imageSrc, siteLink, repoLink }) => (
-          <Project projectName={projectName} imageSrc={imageSrc} siteLink={siteLink} repoLink={repoLink} />
+        {projectData.map(({ id, projectName, imageSrc, siteLink, repoLink }) => (
+          <Project key={id} projectName={projectName} imageSrc={imageSrc} siteLink={siteLink} repoLink={repoLink} />
         ))}
       </div>
     </div>
