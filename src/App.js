@@ -22,23 +22,23 @@ export default function App() {
       <div>
         <div className="main-container">
             <Routes>
-              <Route 
+              <Route exact
                 path="/" 
                 element={<Profile />} 
               />
-              <Route 
+              <Route exact 
                 path="/projects" 
                 element={<Projects />} 
               />
-              <Route 
+              <Route exact
                 path="/experience" 
                 element={<Experience />} 
               />
-              <Route 
+              <Route exact
                 path="/contact" 
                 element={<Contact />} 
               />
-              <Route 
+              <Route exact
                 path="/resume" 
                 element={<Resume />} 
               />
