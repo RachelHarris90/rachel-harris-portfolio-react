@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
 
-  const contactStyle = { 'background-color': '#ffffff', border: '2px', 'border-radius': '5px', padding: '15px', 'box-shadow': '2px 2px 2px #aaaaaa', 'font-size': '20px', 'width': '100%' ,margin: '10px' };
+  const contactStyle = { 'backgroundColor': '#ffffff', border: '2px', 'borderRadius': '5px', padding: '15px', 'boxShadow': '2px 2px 2px #aaaaaa', 'fontSize': '20px', 'width': '100%' ,margin: '10px' };
 
   return (
     <div className="contact-container">

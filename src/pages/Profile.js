@@ -3,7 +3,7 @@ import ProfileImage from '../assets/rachel-harris-portrait.jpeg'
 
 export default function Profile() {
 
-  const profileStyle = { 'background-color': '#ffffff', border: '2px', 'border-radius': '5px', padding: '15px', 'box-shadow': '2px 2px 2px #aaaaaa', 'font-size': '20px'};
+  const profileStyle = { 'backgroundColor': '#ffffff', border: '2px', 'borderRadius': '5px', padding: '15px', 'boxShadow': '2px 2px 2px #aaaaaa', 'fontSize': '20px'};
 
   return (
     <div className="profile-container">
