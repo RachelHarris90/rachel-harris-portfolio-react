@@ -18,9 +18,10 @@ export default function App() {
       <header className="App-header">
         <h1>Rachel Harris's portfolio</h1>
         <NavBar />
-        <Profile />
+        
       </header>
       <div>
+      <Profile />
         <div className="main-container">
             <Routes>
               <Route
