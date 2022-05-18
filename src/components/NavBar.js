@@ -6,8 +6,8 @@ function NavBar() {
 
   return (
     <nav className="main-header-menu">
-      <Link  className="navbar-item" to="/">
-        <h3 style={linkStyle}>Profile</h3>
+      <Link style={linkStyle} className="navbar-item" to="/">
+        <h3>Profile</h3>
       </Link>
       <Link style={linkStyle} className="navbar-item" to="/projects">
         <h3>Projects</h3>
