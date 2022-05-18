@@ -18,6 +18,7 @@ export default function App() {
       <header className="App-header">
         <h1>Rachel Harris's portfolio</h1>
         <NavBar />
+        <Profile />
       </header>
       <div>
         <div className="main-container">
