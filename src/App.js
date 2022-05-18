@@ -22,7 +22,7 @@ export default function App() {
       <div>
         <div className="main-container">
             <Routes>
-              <Route exact
+              <Route
                 path="/" 
                 element={<Profile />} 
               />
