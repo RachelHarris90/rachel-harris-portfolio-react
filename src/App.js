@@ -21,7 +21,6 @@ export default function App() {
         
       </header>
       <div>
-      <Profile />
         <div className="main-container">
             <Routes>
               <Route
